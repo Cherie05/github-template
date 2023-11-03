@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arunvpp@github</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/397611003d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-graydarker">
+    <!--navbar-->
+    <section id="nav">
+        <nav class="bg-darkest">
+            <div class="flex justify-between p-3 mx-auto">
+                <div class="flex text-white justify-center items-center space-x-2 ">
+                    
+                    <!--hamburger-->
+                    <div class="group" tabindex="1">
+                        <?xml version="1.0" encoding="utf-8"?>
+
+                        <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                        <svg class="hover:text-white cursor-pointer hamburger" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                             viewBox="0 0 32 32"width="40" height="40"  xml:space="preserve">
+                        <style type="text/css">
+                            .st0{fill:none;stroke:#727a84;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+                        </style>
+                        <path class="st0" d="M24,28H8c-2.2,0-4-1.8-4-4V8c0-2.2,1.8-4,4-4h16c2.2,0,4,1.8,4,4v16C28,26.2,26.2,28,24,28z"/>
+                        <line class="st0" x1="10" y1="16" x2="22" y2="16"/>
+                        <line class="st0" x1="10" y1="12" x2="22" y2="12"/>
+                        <line class="st0" x1="10" y1="20" x2="22" y2="20"/>
+                        </svg>
+                        
+                        <!--content ham-->
+                        <div class="hidden w-0 group-focus:inline-block group-focus:left-0  bg-gray-900  text-white z-1 absolute top-0  group-focus:w-4/5 group-focus:lg:w-1/5 group-focus:duration-1000 group-focus:transition group-focus:ease-in-out   p-5 rounded-tr-2xl shadow-lg shadow-black ">
+                            <div class="flex justify-between items-center">
+                                <svg width="30" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="#fff"/></svg>
+                                
+                                <div class="border border-graydark rounded-md px-2 bg-gray-700">
+                                    <a class="" href=""><i class="fa-solid fa-xmark"></i></a>
+                                </div>
+  
+                            </div>
+
+                            <div class="mt-3 pb-5 text-left text-base flex gap-y-1 flex-col border-b border-gray-700">
+                                <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3><i class="pr-1 fa-solid fa-house" style="color: #727a84;"></i> Home</h3></a>
+                                <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3><i class="pr-1 fa-regular fa-circle-dot"  style="color: #727a84;"></i> Issues</h3></a>
+                                <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3><i class=" pr-1 fa-solid fa-code-pull-request" style="color: #727a84;"></i> Pull Requests</h3></a>
+                                <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3><i class="pr-1 fa-solid fa-comments" style="color: #727a84;"></i> Discussions</h3></a>
+                                <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3><i class="pr-1 fa-solid fa-server" style="color: #727a84;"></i> Codespaces</h3></a>
+
+                            </div>
+
+                            <div class="mt-3 pb-5 text-left text-base flex gap-y-1 flex-col border-b border-gray-700">
+                                <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3><i class="pr-1 fa-solid fa-binoculars" style="color: #727a84;"></i> Explore</h3></a>
+                                <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3><i class="pr-1 fa-solid fa-gift"  style="color: #727a84;"></i> MarketPlace</h3></a>
+
+                            </div>
+
+
+                            <div class="mt-3 pb-5 text-left text-base flex gap-y-1 flex-col  lg:mb-0 ">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-graydark">Respositories</h3>
+                                    <div class=" rounded-md px-2 py-1 hover:bg-gray-700">
+                                        <a class="" href=""><i class="fa-solid fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-start space-x-3 mt-3 ml-0 pl-0">
+                                    <img src="/assets/profile.jpg"  class="w-6 h-6 rounded-full">
+                                    <h3 class="text-sm">Cherie05/my-portfolio2</h3>
+                                </div>
+                                <div class="flex items-center justify-start space-x-3 mt-3 ml-0 pl-0">
+                                    <img src="/assets/profile.jpg"  class="w-6 h-6 rounded-full">
+                                    <h3 class="text-sm">Cherie05/responsive-my-website</h3>
+                                </div>
+                                <div class="flex items-center justify-start space-x-3 mt-3 ml-0 pl-0">
+                                    <img src="/assets/profile.jpg"  class="w-6 h-6 rounded-full">
+                                    <h3 class="text-sm">Cherie05/meowmarket</h3>
+                                </div>
+                                <div class="flex items-center justify-start space-x-3 mt-3 ml-0 pl-0">
+                                    <img src="/assets/profile.jpg"  class="w-6 h-6 rounded-full">
+                                    <h3 class="text-sm">Cherie05/tailwind1</h3>
+                                </div>
+
+                                <div class="flex items-center justify-start space-x-3 mt-3 ml-0 pl-0">
+                                    <h3 class="text-sm text-graydark">See More</h3>
+                                </div>
+                               
+                            </div>
+                            <div class="flex flex-col  justify-end align-bottom">
+                                <div>
+                                    <p class="text-sm text-graydark">&copy;2023 GitHub. inc</p>
+                                </div>
+                                <div class="text-blue-600">
+                                    <a class="text-xs" href="">About</a>
+                                    <a class="text-xs" href="">Blog</a>
+                                    <a class="text-xs" href="">Terms</a>
+                                    <a class="text-xs" href="">Privacy</a>
+                                    <a class="text-xs" href="">Security</a>
+                                    <a class="text-xs" href="">Status</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--gitlogo-->
+
+                    <svg width="30" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="#fff"/></svg>
+
+                    <h2>Settings</h2>
+                </div>
+
+                <!--nav right content-->
+                <div class="flex items-center justify-center space-x-1 lg:space-x-3">
+                    <div class="flex group " tabindex="2">
+                        <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                        <svg class="lg:hidden" width="38px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5556 3C19.4579 3 21 4.54213 21 6.44444V17.5556C21 19.4579 19.4579 21 17.5556 21H6.44444C4.54213 21 3 19.4579 3 17.5556V6.44444C3 4.54213 4.54213 3 6.44444 3H17.5556Z" stroke="#727a84" stroke-width="0.5"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5067 7.01392C9.02527 7.01392 7.01367 9.02551 7.01367 11.5069C7.01367 13.9884 9.02527 16 11.5067 16C12.3853 16 13.205 15.7478 13.8973 15.3119L15.1658 16.5803C15.5563 16.9709 16.1895 16.9709 16.58 16.5803C16.9705 16.1898 16.9705 15.5566 16.58 15.1661L15.3116 13.8977C15.7475 13.2053 15.9997 12.3856 15.9997 11.5069C15.9997 9.02551 13.9881 7.01392 11.5067 7.01392ZM9.01367 11.5069C9.01367 10.1301 10.1298 9.01392 11.5067 9.01392C12.8836 9.01392 13.9997 10.1301 13.9997 11.5069C13.9997 12.8838 12.8836 14 11.5067 14C10.1298 14 9.01367 12.8838 9.01367 11.5069Z" fill="#727a84"/>
+                        </svg>
+                        <div class="hidden lg:flex group bg-darkest " tabindex="2">
+                            <input class="bg-darkest border p-[2px] border-graydark placeholder:px-2 rounded-md" type="text" placeholder="&#xF002;" style="font-family: FontAwesome;" >
+                        </div>
+                        <!--searchbar-->
+                        <div class="hidden  group-focus:inline-block group-focus:left-0  bg-gray-900  text-white z-1 absolute top-0  group-focus:w-full group-focus:lg:w-1/5 group-focus:duration-500 group-focus:transition group-focus:ease-in-out   p-5 rounded-2xl shadow-lg shadow-black ">
+                            <input class="w-full rounded-xl p-2" type="text" placeholder="&#xF002;" style="font-family: FontAwesome;">
+
+                            <div class="mt-3 pb-5 text-left text-base flex gap-y-1 flex-col border-b border-gray-700">
+                                <h3 class="text-sm text-graydark">Owners</h3>
+                                <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-book" style="color: #727a84;"></i> Cherie05</h3></a>
+                                    <p class="text-sm text-graydark">Jump to</p>
+                                </div>
+                                
+                                <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-book" style="color: #727a84;"></i> tailwindlabs</h3></a>
+                                    <p class="text-sm text-graydark">Jump to</p>
+                                </div> <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-book" style="color: #727a84;"></i> browserlist</h3></a>
+                                    <p class="text-sm text-graydark">Jump to</p>
+                                </div> <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-book" style="color: #727a84;"></i> tehsalmist</h3></a>
+                                    <p class="text-sm text-graydark">Jump to</p>
+                                </div> <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-book" style="color: #727a84;"></i> adoxography</h3></a>
+                                    <p class="text-sm text-graydark">Jump to</p>
+                                </div>
+
+                            </div>
+
+                            <div class="mt-3 pb-5 text-left text-base flex gap-y-1 flex-col border-b border-gray-700">
+                                <h3 class="text-sm text-graydark">Respositories</h3>
+                                <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-book" style="color: #727a84;"></i> Cherie05/portfolio-using-sass</h3></a>
+                                    <p class="text-sm text-graydark">Jump to</p>
+                                </div>
+                                
+                                <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-book" style="color: #727a84;"></i> tailwindlabs/tailwindcss-aspect-ratio</h3></a>
+                                    <p class="text-sm text-graydark">Jump to</p>
+                                </div> <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-book" style="color: #727a84;"></i> browserlist/browserlist</h3></a>
+                                    <p class="text-sm text-graydark">Jump to</p>
+                                </div> <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-book" style="color: #727a84;"></i> tehsalmist/ng-tailwindcss</h3></a>
+                                    <p class="text-sm text-graydark">Jump to</p>
+                                </div> <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-book" style="color: #727a84;"></i> adoxography/tailwind-css-container-queries</h3></a>
+                                    <p class="text-sm text-graydark">Jump to</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--dropdown-->
+                    <div class="border hidden lg:block rounded-md border-graydark px-2 py-[0px] group" tabindex="3" >
+                        <div class="flex space-x-2 group relative items-center justify-center py-0 my-0" tabindex="3">
+                            <i class="fa-solid fa-plus" style="color: #727a84;"></i>
+
+                            <div
+                            class="transition duration-500 ease text-graydark flex items-center justify-center pt-2 "
+                          >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="20" viewBox="0 0 20 20">
+                              <path
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                d="M1 1l8 8 8-8"
+                              />
+                            </svg>
+                          </div>
+                          <div class="hidden  group-focus:flex group-focus:flex-col group-focus:-left-56 bg-gray-800  text-white z-10 absolute top-10  group-focus:w-full group-focus:lg:w-60 group-focus:duration-500 group-focus:transition group-focus:ease-in-out   p-5 rounded-2xl shadow-lg shadow-black ">
+                            
+                            <div class="mt-3 pb-5 text-left text-base flex gap-y-1 flex-col border-b border-gray-700 w-full">
+                                <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-book" style="color: #727a84;"></i> New Respository</h3></a>
+                                </div>
+                                
+                                <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-file-import" style="color: #727a84;"></i> Import Respository</h3></a>
+                                </div>
+
+                            </div>
+                            <div class="mt-3 pb-5 text-left text-base flex gap-y-1 flex-col border-b border-gray-700 w-full">
+                                <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-server" style="color: #727a84;"></i> New Codespace</h3></a>
+                                </div>
+                                
+                                <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-arrow-right-arrow-left" style="color: #727a84;"></i> New gist</h3></a>
+                                </div>
+
+                            </div>
+
+                            <div class="mt-3 pb-5 text-left text-base flex gap-y-1 flex-col  w-full">
+                                <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-building" style="color: #727a84;"></i> New Organisation</h3></a>
+                                </div>
+                                
+                                <div class="flex justify-between">
+                                    <a class="hover:bg-slate-800 p-1 rounded-md" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-rectangle-list" style="color: #727a84;"></i> New Project</h3></a>
+                                </div>
+
+                            </div>
+
+                          </div>                       
+                        </div>
+                    </div>
+
+                    <div class="border hidden lg:block rounded-md border-graydark px-2 py-[1px]">
+                        <a href=""><i class="fa-solid fa-circle-dot" style="color: #727a84;"></i></a>
+                      </div>
+
+                    <div class="border hidden lg:block rounded-md border-graydark px-2 py-[1px]">
+                      <a href=""><i class="fa-solid fa-code-pull-request" style="color: #727a84;"></i></a>
+                    </div>
+  
+                    <!--notify-->
+
+                    <div class="border rounded-md border-graydark px-2 py-[1px]">
+                      <a href="">
+                        <a href=""><i class="fa-solid fa-inbox" style="color: #727a84;"></i></a>
+                      </a>
+                    </div>
+  
+
+                    <img src="/assets/profile.jpg"  class="w-8 h-8 rounded-full">
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!--body-->
+    <section id="body">
+        <div class="text-white md:mx-10 lg:mx-36">
+            <div class="p-2 m-2 mt-5 text-white  lg:flex lg:justify-between lg:items-center"> 
+                <div class="flex items-center text-white space-x-3">
+                    <div>
+                        <img class="w-20 md:w-12 lg:w-16 rounded-full" src="/assets/profile.jpg" alt="">
+                    </div>
+                    <div class="flex flex-col">
+                        <h1 class="font-bold pr-10 lg:text-xl">V PACHAIAH PULLAIH ARUN KUMAR <span class="text-graydark">(Cherie05)</span></h1>
+                        <p class="text-sm lg:text-base text-graydark"> Your Personl Account</p>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <a class="border border-gray-700 p-1 px-2 font-semibold bg-gray-800 rounded-md text-xs hover:border-white" href="">Go to your personal profile</a>
+                </div>
+    
+               
+            </div>
+
+             <!--main content-->
+         <div class="mt-5 p-2 m-2">
+            <div class="grid lg:grid-rows-1 md:grid-rows-1 lg:grid-flow-col md:grid-flow-col">
+                <!--left-->
+                <div class="lg:row-span-3 md:w-60 lg:w-80">
+                    <div class=" lg:pl-2 pb-5 text-left text-base flex gap-y-1 flex-col border-b border-gray-800 lg:w-11/12">
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md w-full lg:w-11/12" href=""><h3 class="text-sm"><i class="pr-1 fa-regular fa-user" style="color: #727a84;"></i> Public Profile</h3></a>
+                        </div>
+                        
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md w-full lg:w-11/12" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-gear" style="color: #727a84;"></i> Account</h3></a>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md w-full lg:w-11/12" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-paintbrush" style="color: #727a84;"></i> Appearance</h3></a>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md w-full lg:w-11/12" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-child" style="color: #727a84;"></i> Accessibility</h3></a>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md w-full lg:w-11/12" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-bell" style="color: #727a84;"></i> Notifications</h3></a>
+                        </div>
+
+                    </div>
+
+
+                    <div class=" lg:pl-2 pb-5 text-left text-base flex gap-y-1 flex-col border-b border-gray-800 lg:w-11/12 lg:mt-4">
+
+                        <div class="flex justify-between">
+                            <p class="text-xs text-graydark">Access</p>
+                        </div>
+
+                        <div class="flex flex-col ">
+                            <div class="flex justify-between w-full items-center">
+                                <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-regular fa-credit-card" style="color: #727a84;"></i> Billing and plans</h3></a>
+                                <a href=""><i class="fa-solid fa-chevron-up"></i>
+                                </a>
+                            </div>
+
+                            <div class="pl-7 text-xs flex flex-col gap-y-1 py-2 ">
+                                <div class="flex px-0">
+                                    <div class="  border-l-4 border-blue-800 p-1 my-1 mx-0 "></div><a class="p-2   rounded-md bg-slate-800 w-full" href="">plans and usage</a>
+                                </div>
+                                
+                                <a class="hover:bg-slate-800 p-2" href="">Spending limits</a>
+                                <a class="hover:bg-slate-800 p-2" href="">Payment information</a>
+                            </div>
+                           
+                        </div>
+                        
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-regular fa-envelope" style="color: #727a84;"></i> Emails</h3></a>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-shield-halved" style="color: #727a84;"></i> Password and authenication</h3></a>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-tower-broadcast" style="color: #727a84;"></i> Sessions</h3></a>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-key" style="color: #727a84;"></i> SSH and GPG keys </h3></a>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-building" style="color: #727a84;"></i>  Organisations </h3></a>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-globe" style="color: #727a84;"></i> Enterprises </h3></a>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-comment-dots" style="color: #727a84;"></i>  Moderation</h3></a>
+                        </div>
+
+                    </div>
+
+
+                    <div class=" lg:pl-2 pb-5 text-left text-base flex gap-y-1 flex-col border-b border-gray-800 lg:w-11/12 lg:mt-4">
+
+                        <div class="flex justify-between">
+                            <p class="text-xs text-graydark">Code, planning, and automation</p>
+                        </div>
+
+                       
+                        
+                        <div class="flex justify-between mt-2">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-book" style="color: #727a84;"></i> Respositories</h3></a>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-server" style="color: #727a84;"></i> Codespaces</h3></a>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-cube" style="color: #727a84;"></i> Packages</h3></a>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-children" style="color: #727a84;"></i> Copilot </h3></a>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-pager" style="color: #727a84;"></i>  Pages </h3></a>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-arrow-left" style="color: #727a84;"></i> Saved replies </h3></a>
+                        </div>
+
+                    </div>
+
+
+                    <div class=" lg:pl-2 pb-5 text-left text-base flex gap-y-1 flex-col border-b border-gray-800 lg:w-11/12 lg:mt-4">
+
+                        <div class="flex justify-between">
+                            <p class="text-xs text-graydark">Security</p>
+                        </div>
+
+                       
+                        
+                        <div class="flex justify-between mt-2">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-shield" style="color: #727a84;"></i> Code security and analysis</h3></a>
+                        </div>
+
+
+                    </div>
+
+                    <div class=" lg:pl-2 pb-5 text-left text-base flex gap-y-1 flex-col border-b border-gray-800 lg:w-11/12 lg:mt-4">
+
+                        <div class="flex justify-between">
+                            <p class="text-xs text-graydark">Integrations</p>
+                        </div>
+
+                       
+                        
+                        <div class="flex justify-between mt-2">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-shapes" style="color: #727a84;"></i> Applications</h3></a>
+                        </div>
+
+                        <div class="flex justify-between mt-2">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-clock" style="color: #727a84;"></i> Scheduled reminders</h3></a>
+                        </div>
+
+
+                    </div>
+
+                    <div class=" lg:pl-2 pb-5 text-left text-base flex gap-y-1 flex-col border-b border-gray-800 lg:w-11/12 lg:mt-4">
+
+                        <div class="flex justify-between">
+                            <p class="text-xs text-graydark">Archives</p>
+                        </div>
+
+                       
+                        
+                        <div class="flex justify-between mt-2">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-scroll" style="color: #727a84;"></i> Security log</h3></a>
+                        </div>
+
+                        <div class="flex justify-between mt-2">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-scroll" style="color: #727a84;"></i> Sponsership log</h3></a>
+                        </div>
+
+
+                    </div>
+
+                    <div class=" lg:pl-2 pb-5 text-left text-base flex gap-y-1 flex-col border-b border-gray-800 lg:w-11/12 lg:mt-4">
+                        
+                        <div class="flex justify-between mt-2">
+                            <a class="hover:bg-slate-800 p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-list-check" style="color: #727a84;"></i> Developer settings</h3></a>
+                        </div>
+                    </div>
+
+ 
+                </div>
+
+
+                <!--right-->
+                <div class="lg:col-span-3 md:w-[450px] lg:w-[900px]">
+                    <div class="flex flex-col mt-8 md:mt-0">
+                        <div class="">
+                            <h1 class="text-2xl  border-b border-gray-700 pb-3">Billing Summary</h1>
+                        </div>
+                        <div class="flex border flex-col md:flex-row border-gray-700 mt-5 p-5 rounded-md  py-5">
+                            <div class="flex flex-col justify-start gap-y-3 md:w-1/2 lg:w-1/2 lg:border-r border-gray-700">
+                                <p class="text-sm font-semibold">Your next payment</p>
+                                <h3 class="text-xl font-bold">$0.00</h3>
+                                <p class="text-xs font-light">This amount does not include the spend on usage of metered service. View your <span><a class="text-blue-500 underline underline-offset-2" href="">usage this month</a></span> below.</p>
+                            </div>
+                            <div class="flex flex-col justify-start md:w-1/2 lg:w-1/2 mt-5 md:mt-0 md:px-5">
+                                <p class="text-sm font-light hover:underline hover:underline-offset-2 cursor-pointer text-gray-400">Payment information <i class="pl-2 fa-solid fa-arrow-right "></i></p>
+                                <div class="flex flex-col py-2 text-xs space-y-1 text-blue-500">
+                                    <a href="">Manage spending limit</a>
+                                    <a href="">View payment history</a>
+                                    <a href="">Switch to yearly billing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <!--currentplan-->
+
+                    <div class="flex flex-col mt-8 md:mt-5">
+                        <div class=" flex justify-between border-b border-gray-700 pb-3 w-full">
+                            <div class="">
+                                <h1 class="text-2xl md:text-2xl  ">Current plan</h1>
+                            </div>
+
+                            <div class="flex gap-x-3 py-1">
+                                <div class="">
+                                    <a class="border border-gray-700 p-1  px-2 font-semibold bg-gray-800 rounded-md text-xs hover:border-white" href="">Compare all plans</a>
+                                </div>                                
+                                <div class="">
+                                    <a class="border border-gray-700 bg-green-700 p-1 opacity-80 px-2 font-semibold rounded-md text-xs hover:opacity-100" href="">Upgrade</a>
+                                </div>                             
+                            </div>
+                         
+                        </div>
+
+
+                        <!--currentplan-->
+
+                        <div class="flex flex-col border border-gray-700 mt-5 rounded-md ">
+
+                            <div class="flex  items-center p-3  gap-x-2 bg-black10  border-b border-gray-700">
+                                <div>
+                                    <svg width="30" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="#fff"/></svg>
+
+                                </div>
+                                <div class="flex flex-col">
+                                    <h3 class="text-sm font-bold">GitHub Free</h3>
+                                    <p class="text-xs font-light">The basics for all developers</p>
+                                </div>   
+                            </div>
+
+                            <div class="flex flex-col md:flex-row    p-5  ">
+                                <div class="flex flex-col justify-start  md:w-1/2 lg:w-1/2">
+   
+                                    <div class="flex justify-between ">
+                                        <a class=" p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-infinity" style="color: green;"></i> Unlimited public/private repos</h3></a>
+                                    </div>
+                                    <div class="flex justify-between ">
+                                        <a class=" p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-infinity" style="color: green;"></i> Unlimited collaborators</h3></a>
+                                    </div>
+                                    <div class="flex justify-between ">
+                                        <a class=" p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-check" style="color: green;"></i> 2,000 Actions minutes/month</h3></a>
+                                    </div>
+                                    <div class="flex justify-between ">
+                                        <a class=" p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-check" style="color: green;"></i> 500MB of Packages storage</h3></a>
+                                    </div>
+                                    <div class="flex justify-between ">
+                                        <a class=" p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-check" style="color: green;"></i> 120 core-hours of Codespaces compute per developer</h3></a>
+                                    </div>
+                                    <div class="flex justify-between ">
+                                        <a class=" p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-check" style="color: green;"></i> 15GB of Codespaces storage per developer</h3></a>
+                                    </div>
+                                    <div class="flex justify-between ">
+                                        <a class=" p-1 rounded-md lg:w-11/12 w-full" href=""><h3 class="text-sm"><i class="pr-1 fa-solid fa-check" style="color: green;"></i> Community support</h3></a>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col justify-start md:w-1/2 lg:w-1/2 mt-5 md:mt-0 md:px-5">
+                                    <p class="text-base cursor-pointer text-gray-400 ">Not included :</p>
+                                   
+                                    <div class="flex justify-between ">
+                                        <h3 class="text-sm p-1"><i class="pr-1 fa-solid fa-xmark" style="color: red;"></i> Free Codespaces usage per organization</h3>                                    
+                                    </div>
+                                    <div class="flex justify-between ">
+                                        <h3 class="text-sm p-1"><i class="pr-1 fa-solid fa-xmark" style="color: red;"></i> Protected branches on all repos</h3>                                    
+                                    </div>
+                                    <div class="flex justify-between ">
+                                        <h3 class="text-sm p-1"><i class="pr-1 fa-solid fa-xmark" style="color: red;"></i> Increase Codespaces <span><a class="underline underline-offset-2 text-blue-500" href="">spend limits</a></span></h3>                                    
+                                    </div>
+                                    <div class="flex justify-between ">
+                                        <h3 class="text-sm p-1"><i class="pr-1 fa-solid fa-xmark" style="color: red;"></i> Multiple reviewers in pull requests</h3>                                    
+                                    </div>
+                                    <div class="flex justify-between ">
+                                        <h3 class="text-sm p-1"><i class="pr-1 fa-solid fa-xmark" style="color: red;"></i> Required status checks</h3>                                    
+                                    </div>
+                                    <div class="flex justify-between ">
+                                        <h3 class="text-sm p-1"><i class="pr-1 fa-solid fa-xmark" style="color: red;"></i> Code owners</h3>                                    
+                                    </div>
+                                    <div class="flex justify-between ">
+                                        <h3 class="text-sm p-1"><i class="pr-1 fa-solid fa-xmark" style="color: red;"></i> Required reviewer</h3>                                    
+                                    </div>
+                                    <div class="flex justify-between ">
+                                        <h3 class="text-sm p-1"><i class="pr-1 fa-solid fa-xmark" style="color: red;"></i> Pages for static website hosting</h3>                                    
+                                    </div>
+                                    <div class="flex justify-between ">
+                                        <h3 class="text-sm p-1"><i class="pr-1 fa-solid fa-xmark" style="color: red;"></i> Web-based support</h3>                                    
+                                    </div>
+
+                                    <div class="flex justify-between ">
+                                        <a href=""><h3 class="text-sm font-light text-blue-500 hover:underline hover:underline-offset-2 p-1">See all features and compare plans</h3> </a>                                   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+
+                        <div class="flex border flex-col md:flex-row border-gray-700 mt-5 p-5 rounded-md  py-5">
+                            <div class="flex flex-col justify-start gap-y-3 md:w-4/5 lg:border-r border-gray-700">
+                                <p class="text-sm font-semibold">Start your first organization</p>
+                                <h3 class="text-sm ">With CI/CD, Dependabot, and the world's largest developer community, GitHub gives your team everything they need to ship better software faster</h3>
+                                <div class="flex gap-x-3 py-1">
+                                    <div class="">
+                                        <a class="border border-gray-700 p-2  px-2 font-semibold bg-gray-800 rounded-md text-sm hover:border-white" href="">Create an organisation</a>
+                                    </div>                                
+                                    <div class="">
+                                        <a class="text-blue-500 hover:bg-gray-800  p-2 opacity-80 px-2 font-semibold rounded-md text-sm hover:opacity-100" href="">Learn more</a>
+                                    </div>                             
+                                </div>
+                            </div>
+                            <div class="lg:flex flex-col justify-center items-center  mt-5 md:mt-0 md:px-5">
+                               <img class="w-32" src="/assets/community.png" alt="">
+                            </div>
+                        </div>
+
+                        <!--addson-->
+
+                        <div class="flex flex-col mt-8 md:mt-5">
+                            <div class=" flex justify-between border-b border-gray-700 pb-3 w-full">
+                                <div class="">
+                                    <h1 class="text-2xl md:text-2xl  ">Adds-ons</h1>
+                                </div> 
+                            </div>
+
+                        <div class="flex flex-col border border-gray-700 mt-5 rounded-md ">
+
+                            <div class="flex  items-center p-3  gap-x-2 bg-black10  border-b border-gray-700">
+                                <div>
+                                    <i class="fa-solid fa-robot fa-2x"></i>
+
+                                </div>
+                                <div class="flex justify-between items-center w-full">
+                                    <div>
+                                        <h3 class="text-sm font-bold">GitHub Copilot</h3>
+                                        <p class="text-xs font-light text-gray-400">Your AI pair programmer</p>
+                                    </div>
+
+                                    <div>
+                                        <div class="">
+                                            <a class="border border-gray-700 p-1  px-2  bg-gray-800 rounded-md  text-xs hover:border-white" href="">Enable GitHub Copilot</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>   
+                            </div>
+
+                            <div class="flex flex-col md:flex-row    p-5  ">
+                                <div class="flex flex-col justify-start text-sm ">
+                                    <h2>GitHub Copilot uses the GPT-3.5 Turbo model to suggest code and entire functions in real-time, right from your editor</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--usage-->
+ 
+                        <div class="flex flex-col mt-8 md:mt-5">
+                            <div class=" flex justify-between border-b border-gray-700 pb-3 w-full">
+                                <div class="">
+                                    <h1 class="text-2xl md:text-2xl  ">Usage this month</h1>
+                                </div>
+    
+                                <div class="flex gap-x-3 py-1">
+                                    <div class="">
+                                        <a class="border border-gray-700 p-1  px-2 font-semibold bg-gray-800 rounded-md text-xs hover:border-white" href="">Get usage report</a>
+                                    </div>                                                           
+                                </div>
+                            </div>
+
+
+                        <!--actions-->
+
+                        <div class="flex flex-col border border-gray-700 mt-5 rounded-md ">
+
+                            <div class="flex  items-center p-3  gap-x-2 bg-black10  border-b border-gray-700">
+                                <div>
+                                    <i class="fa-solid fa-check-to-slot fa-2x" style="color: #1f7fec;"></i>
+                                </div>
+                                <div class="flex justify-between items-center w-full">
+                                    <div>
+                                        <h3 class="text-sm font-bold">Actions</h3>
+                                        <p class="text-xs font-light text-gray-400">Included minutes quota resets in 28 days. <a class="text-blue-500 hover:underline hover:underline-offset-2 " href="">See billing documentation</a></p>
+                                    </div>
+                                    
+                                </div>   
+                            </div>
+
+                            <div class="flex flex-col p-5  ">
+                                <div class="flex  text-sm justify-between items-center border-b border-gray-700 pb-4">
+                                    <div><i class="fa-solid fa-chevron-right"></i></div>
+                                    <div class="flex flex-col w-4/5 justify-start">
+                                        <div class="flex flex-col md:flex-row gap-y-2 md:items-center justify-between w-1/2 text-gray-500">
+                                            <div><a href=""><h3>Usage minutes</h3></a></div>
+                                            <div><p class="text-xs">0.00 of 2,000.00 min included</p></div>
+                                        </div>
+                                        <div class="w-1/2 bg-gray-800 rounded-xl h-2 mt-2"><span></span></div>
+                                    </div>
+                                    <div><h3>$0.00</h3></div>
+                                </div>
+                                <div class="flex   lg:ml-20 mt-4 justify-between">
+                                    <div class="flex items-center"><p class="text-gray-500 text-xs">$0.00 monthly spending limit | <a class="text-blue-500 underline underline-offset-4" href=""> Set up a spending limit</a> </p></div>
+                                    <div><h3 class="text-sm">$0.00</h3></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--pakages-->
+                        
+                        <div class="flex flex-col ">
+
+                        <div class="flex flex-col border border-gray-700 mt-5 rounded-md ">
+
+                            <div class="flex  items-center p-3  gap-x-2 bg-black10  border-b border-gray-700">
+                                <div>
+                                    <i class="fa-solid fa-shield-virus fa-2x" style="color: #1f7fec;"></i>
+                                </div>
+                                <div class="flex justify-between items-center w-full">
+                                    <div>
+                                        <h3 class="text-sm font-bold">Packages</h3>
+                                        <p class="text-xs font-light text-gray-400">Data transfer quota resets in 28 days. <a class="text-blue-500 hover:underline hover:underline-offset-2 " href="">See billing documentation</a></p>
+                                    </div>
+                                    
+                                </div>   
+                            </div>
+
+                            <div class="flex flex-col p-5  ">
+                                <div class="flex  text-sm justify-between items-center border-b border-gray-700 pb-4">
+                                    <div><i class="fa-solid fa-chevron-right"></i></div>
+                                    <div class="flex flex-col w-4/5 justify-start">
+                                        <div class="flex flex-col md:flex-row gap-y-2 md:items-center justify-between w-1/2 text-gray-500">
+                                            <div><a href=""><h3>Data transfer out</h3></a></div>
+                                            <div><p class="text-xs">0.00 GB of 1.0 GB included</p></div>
+                                        </div>
+                                        <div class="w-1/2 bg-gray-800 rounded-xl h-2 mt-2"><span></span></div>
+                                    </div>
+                                    <div><h3>$0.00</h3></div>
+                                </div>
+                                <div class="flex   lg:ml-20 mt-4 justify-between">
+                                    <div class="flex items-center"><p class="text-gray-500 text-xs">$0.00 monthly spending limit | <a class="text-blue-500 underline underline-offset-4" href=""> Set up a spending limit</a> </p></div>
+                                    <div><h3 class="text-sm">$0.00</h3></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+
+                         <!--storage-->
+                        
+                        <div class="flex flex-col ">
+
+                            <div class="flex flex-col border border-gray-700 mt-5 rounded-md ">
+    
+                                <div class="flex  items-center p-3  gap-x-2 bg-black10  border-b border-gray-700">
+                                    <div>
+                                        <i class="fa-solid fa-cloud-arrow-down fa-2x" style="color: #1f7fec;"></i>
+                                    </div>
+                                    <div class="flex justify-between items-center w-full">
+                                        <div>
+                                            <h3 class="text-sm font-bold">Storage for Actions and Packages</h3>
+                                            <p class="text-xs font-light text-gray-400">Shared storage consists of Actions artifacts and Packages usage. This graph shows the account's storage usage in GB-months. Removing stored artifacts will not reduce this number, but it will lower its rate of growth. To see your account's current storage, download a usage report.</p>
+                                        </div>
+                                        
+                                    </div>   
+                                </div>
+    
+                                <div class="flex flex-col p-5  ">
+                                    <div class="flex  text-sm justify-between items-center border-b border-gray-700 pb-4">
+                                        <div><i class="fa-solid fa-chevron-right"></i></div>
+                                        <div class="flex flex-col w-4/5 justify-start">
+                                            <div class="flex flex-col md:flex-row gap-y-2 md:items-center justify-between w-1/2 text-gray-500">
+                                                <div><a href=""><h3>Storage</h3></a></div>
+                                                <div><p class="text-xs">0.00 GB of 0.5 GB included</p></div>
+                                            </div>
+                                            <div class="w-1/2 bg-gray-800 rounded-xl h-2 mt-2"><span></span></div>
+                                        </div>
+                                        <div><h3>$0.00</h3></div>
+                                    </div>
+                                    <div class="flex   lg:ml-20 mt-4 justify-between">
+                                        <div class="flex items-center"><p class="text-gray-500 text-xs">$0.00 monthly spending limit | <a class="text-blue-500 underline underline-offset-4" href=""> Set up a spending limit</a> </p></div>
+                                        <div><h3 class="text-sm">$0.00</h3></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!--codespaces-->
+                          
+                        <div class="flex flex-col ">
+
+                            <div class="flex flex-col border border-gray-700 mt-5 rounded-md ">
+    
+                                <div class="flex  items-center p-3  gap-x-2 bg-black10  border-b border-gray-700">
+                                    <div>
+                                        <i class="fa-solid fa-file-code fa-2x" style="color: #1f7fec;"></i>
+                                    </div>
+                                    <div class="flex justify-between items-center w-full">
+                                        <div>
+                                            <h3 class="text-sm font-bold">Codespaces</h3>
+                                            <p class="text-xs font-light text-gray-400">Included quotas resets in 28 days. <a class="text-blue-500 hover:underline hover:underline-offset-2 " href="">See billing documentation</a></p>
+                                        </div>
+                                        
+                                    </div>   
+                                </div>
+    
+                                <div class="flex flex-col p-5  ">
+                                    <div class="flex  text-sm justify-between items-center border-b border-gray-700 pb-4">
+                                        <div><i class="fa-solid fa-chevron-right"></i></div>
+                                        <div class="flex flex-col w-4/5 justify-start">
+                                            <div class="flex flex-col md:flex-row gap-y-2 md:items-center justify-between w-1/2 text-gray-500">
+                                                <div><a href=""><h3>Usage hours</h3></a></div>
+                                                <div><p class="text-xs">0.00 of 120.00 included core hours used</p></div>
+                                            </div>
+                                            <div class="w-1/2 bg-gray-800 rounded-xl h-2 mt-2"><span></span></div>
+                                        </div>
+                                        <div><h3>$0.00</h3></div>
+                                    </div>
+
+                                    <div class="flex  text-sm justify-between items-center border-b border-gray-700 pb-4">
+                                        <div><i class="fa-solid fa-chevron-right"></i></div>
+                                        <div class="flex flex-col w-4/5 justify-start">
+                                            <div class="flex flex-col md:flex-row gap-y-2 md:items-center justify-between w-1/2 text-gray-500">
+                                                <div><a href=""><h3>Storage</h3></a></div>
+                                                <div><p class="text-xs">0.00 of 15.00 included GB-month used</p></div>
+                                            </div>
+                                            <div class="w-1/2 bg-gray-800 rounded-xl h-2 mt-2"><span></span></div>
+                                        </div>
+                                        <div><h3>$0.00</h3></div>
+                                    </div>
+                                    <div class="flex   lg:ml-20 mt-4 justify-between">
+                                        <div class="flex items-center"><p class="text-gray-500 text-xs">$0.00 monthly spending limit | <a class="text-blue-500 underline underline-offset-4" href=""> Set up a spending limit</a> </p></div>
+                                        <div><h3 class="text-sm">$0.00</h3></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                         <!--gitdata-->
+                          
+                        <div class="flex flex-col ">
+
+                            <div class="flex flex-col border border-gray-700 mt-5 rounded-md ">
+    
+                                <div class="flex  items-center p-3  gap-x-2 bg-black10  border-b border-gray-700">
+                                    <div>
+                                        <i class="fa-solid fa-database fa-2x" ></i>
+                                    </div>
+                                    <div class="flex justify-between  items-center w-full">
+                                        <div>
+                                            <h3 class="text-sm font-bold">Git LFS Data</h3>
+                                            <p class="text-xs font-light text-gray-400">Bandwidth quotas resets in 28 days. <a class="text-blue-500 hover:underline hover:underline-offset-2 " href="">See billing documentation</a></p>
+                                        </div>
+
+                                        <div class=" w-full ml-14 md:ml-20 lg:ml-0 lg:w-max">
+                                            <a class="border border-gray-700 p-1  px-2 font-semibold bg-gray-800 rounded-md text-xs hover:border-white" href="">Add more data</a>
+                                        </div> 
+                                        
+                                    </div>   
+                                </div>
+    
+                                <div class="flex flex-col p-5  ">
+                                    <div class="flex  text-sm justify-between items-center border-b border-gray-700 pb-4">
+                                        <div><i class="fa-solid fa-chevron-right"></i></div>
+                                        <div class="flex flex-col w-11/12 justify-start">
+                                            <div class="flex flex-col md:flex-row gap-y-2 md:items-center justify-between w-1/2 text-gray-500">
+                                                <div><a href=""><h3>Storage</h3></a></div>
+                                                <div><p class="text-xs">0.00 of 1 GB</p></div>
+                                            </div>
+                                            <div class="w-1/2 bg-gray-800 rounded-xl h-2 mt-2"><span></span></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex  text-sm justify-between items-center border-b border-gray-700 pb-4">
+                                        <div><i class="fa-solid fa-chevron-right"></i></div>
+                                        <div class="flex flex-col w-11/12 justify-start">
+                                            <div class="flex flex-col md:flex-row gap-y-2 md:items-center justify-between w-1/2 text-gray-500">
+                                                <div><a href=""><h3>Bandwidth</h3></a></div>
+                                                <div><p class="text-xs">0.00 of 1 GB</p></div>
+                                            </div>
+                                            <div class="w-1/2 bg-gray-800 rounded-xl h-2 mt-2"><span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="flex   lg:ml-20 mt-4 justify-between">
+                                        <div class="flex items-center"><p class="text-gray-500 text-xs">$0.00 monthly spending limit | <a class="text-blue-500 underline underline-offset-4" href=""> Set up a spending limit</a> </p></div>
+                                        <div><h3 class="text-sm">$0.00</h3></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--sponsors-->
+                        <div class="flex flex-col mt-8 md:mt-5">
+                            <div class=" flex justify-between border-b border-gray-700 pb-3 w-full">
+                                <div class="">
+                                    <h1 class="text-2xl md:text-2xl  ">GitHub Sponsors</h1>
+                                </div> 
+                            </div>
+
+                        <div class="flex flex-col border border-gray-700 mt-5 rounded-md ">
+
+                            <div class="flex  items-center p-3  gap-x-2 bg-black10  border-b border-gray-700">
+                                <div>
+                                    <i class="fa-solid fa-shield-heart fa-2x" style="color: palevioletred;"></i>
+
+                                </div>
+                                <div class="flex justify-between items-center w-full">
+                                    <div>
+                                        <h3 class="text-sm font-bold">GitHub Sponsors</h3>
+                                        <p class="text-xs font-light text-gray-400">Connect with the community that builds the tools you use</p>
+                                    </div>
+
+                                    <div class="inline w-full ml-14 md:ml-20 lg:ml-0 lg:w-max">
+                                        <a class="border border-gray-700 p-1 opacity-80 hover:opacity-100 px-2 font-semibold bg-green-500 rounded-md text-xs hover:border-white" href="">Start sponsoring</a>
+                                    </div>
+
+                                </div>   
+                            </div>
+
+                            <div class="flex flex-col md:flex-row    p-5  ">
+                                <div class="flex flex-col justify-start text-sm ">
+                                    <h2>You're currently not sponsoring anyone. <a class="text-blue-500 underline underline-offset-4" href="">Learn more about GitHub Sponsors</a></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <section class=" mt-20 ">
+        <footer>
+            <div class="flex flex-wrap  md:mx-10 lg:mx-60  border-gray-800 border-t justify-center items-center">
+                <div class="flex flex-col-reverse lg:flex-row gap-y-2 items-center p-3 m-5 text-blue-500 gap-x-8 justify-center flex-wrap">
+                    <div class="flex gap-x-2 items-center">
+                        <svg width="30" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="#fff"/></svg>
+
+                        <p class="text-graydark text-xs">&copy; GitHub 2023, Inc.</p>
+                    </div>
+                    <div class="text-center lg:space-x-8">
+                        <a class="text-xs hover:underline hover:underline-offset-4" href="">Terms</a>
+                        <a class="text-xs hover:underline hover:underline-offset-4" href="">Privacy</a>
+                        <a class="text-xs hover:underline hover:underline-offset-4" href="">Security</a>
+                        <a class="text-xs hover:underline hover:underline-offset-4" href="">Status</a>
+                        <a class="text-xs hover:underline hover:underline-offset-4" href="">Docs
+                        </a>
+                        <a class="text-xs hover:underline hover:underline-offset-4" href="">Contact GitHub</a>
+                        <a class="text-xs hover:underline hover:underline-offset-4" href="">Pricing</a>
+                        <a class="text-xs hover:underline hover:underline-offset-4" href="">API </a>
+                        <a class="text-xs hover:underline hover:underline-offset-4" href="">Training
+                        </a>
+                        <a class="text-xs hover:underline hover:underline-offset-4" href="">Blog</a>
+                        <a class="text-xs hover:underline hover:underline-offset-4" href="">
+                            About</a>
+                    </div>
+                   
+
+                 
+
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
